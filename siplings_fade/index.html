@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 350px;
+      }
+      li {
+        background: #e97c7c;
+        color: #222;
+        border: 1px solid #d65959;
+        transition: all 0.2s ease-in-out;
+        border-radius: 3px;
+        padding: 3px 20px;
+        cursor: pointer;
+      }
+      ul:hover > li:not(:hover) {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul class="tags">
+      <li class="tag">tag1 Lorem ipsum</li>
+      <li class="tag">tag2 Voluptatem</li>
+      <li class="tag">tag3</li>
+      <li class="tag">tag4consectetur</li>
+      <li class="tag">tag5</li>
+    </ul>
+  </body>
+</html>
